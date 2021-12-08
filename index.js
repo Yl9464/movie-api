@@ -5,7 +5,7 @@ const app = express()
 
 // 1) A request for all data [X]
 // 2) A request for all movies by a director
-// 3) A request for a movie by title. Note that you should support partial matches as shown below.
+// 3) A request for a movie by title. Note that you should support partial matches as shown below.[X]
 
 app.get('/', (request, response) => {
   return response.send({ movies })
@@ -20,3 +20,4 @@ app.get('/:title', (request, response) => {
 
 
 app.listen(1345)
+
