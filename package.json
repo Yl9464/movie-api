@@ -4,11 +4,10 @@
   "description": "## Instructions",
   "main": ".eslintrc.js",
   "scripts": {
-    "dev": "nodemon index.js,",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "npm run lint:pug && npm run lint:eslint",
-    "lint:pug": "./node_modules/.bin/pug-lint .",
-    "lint:eslint": "./node_modules/.bin/eslint --format codeframe ."
+    "dev": "nodemon index.js",
+    "lint": "eslint --format codeframe .",
+    "lint:fix": "eslint --fix --format codeframe ."
+
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +16,6 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "regex": "^0.1.1"
+    "express": "^4.17.1"
   }
 }
