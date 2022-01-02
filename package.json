@@ -7,7 +7,6 @@
     "dev": "nodemon index.js",
     "lint": "eslint --format codeframe .",
     "lint:fix": "eslint --fix --format codeframe ."
-
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +15,7 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "body-parser": "^1.19.1",
     "express": "^4.17.1"
   }
 }
