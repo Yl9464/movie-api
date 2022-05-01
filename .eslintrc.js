@@ -27,7 +27,7 @@ module.exports = {
     'keyword-spacing': ['error', { 'before': true, 'after': true }],
     'linebreak-style': ['error', 'unix'],
     'max-len': ['error', { 'code': 120, 'ignoreComments': true, 'ignoreTrailingComments': true }],
-    'no-console': 'error',
+    'no-console': 'off',
     'no-case-declarations': 0,
     'no-mixed-spaces-and-tabs': 'error',
     'no-multi-spaces': 'error',
